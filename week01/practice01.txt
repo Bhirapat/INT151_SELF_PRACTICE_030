@@ -1,0 +1,71 @@
+คอมผม
+
+const arr = ['Hi', 1, true]
+
+สร้างตัวแปร arr เป็น อาร์เรย์ ที่เก็บค่า 3 ค่า คือ 'Hi' (String), 1 (Number) และ true (Boolean)
+
+console.log(arr.length)
+
+แสดงผล ความยาว ของอาร์เรย์ ซึ่งก็คือ 3
+
+console.log(arr[0])
+
+แสดงผลค่าที่อยู่ใน Index (ตำแหน่ง) ที่ 0 ของอาร์เรย์ ซึ่งก็คือ 'Hi' เพราะอาเรย์เริ่มที่ตำแหน่ง 0
+
+console.log(arr.length - 1)
+
+แสดงผลค่า ความยาวของอาร์เรย์ ลบด้วย 1 ซึ่งคือ 3 - 1 = 2 (ค่านี้มักใช้ในการเข้าถึง Index ตัวสุดท้ายของอาร์เรย์)
+
+arr.push({ name: "Sombat", age: 25 })
+
+เพิ่ม object { name: "Sombat", age: 25 } เข้าไปในอาร์เรย์ arr ที่ ท้ายสุด
+
+arr.push(['mango', 'banana'])
+
+เพิ่ม อาร์เรย์อีกชุด ['mango', 'banana'] เข้าไปในอาร์เรย์ arr ที่ ท้ายสุด
+
+arr.forEach(item => { console.log(item); });
+
+เป็นการ วนลูป เพื่อแสดงผล ทุก element ในอาร์เรย์ arr หลังจากที่เพิ่มค่าเข้าไปใหม่แล้ว
+
+คอมเพื่อนใช้ array และ obj ของเพื่อนแต่ code ผมเขียนเอง 
+
+const myDog = ["NumChock", 2, 50, "GermanSheperd"]
+
+สร้างตัวแปร myDog ซึ่งเป็นอาร์เรย์ที่เก็บค่า 4 ค่า
+
+console.log(myDog.length);
+
+แสดงผล ความยาว ของอาร์เรย์ ซึ่งก็คือ 4
+
+console.log(myDog[0]);
+
+แสดงผลค่าที่ Index ที่ 0 ของอาร์เรย์ ซึ่งก็คือ "NumChock"
+
+console.log(myDog.length - 1);
+
+แสดงผลค่า ความยาวของอาร์เรย์ ลบด้วย 1 ซึ่งคือ 4 - 1 = 3
+
+console.log(myDog[myDog.length-1])
+
+แสดงผลค่าที่อยู่ใน Index ตัวสุดท้าย ของอาร์เรย์ ซึ่งก็คือ myDog[3] หรือ "GermanSheperd"
+
+myDog.push (('Euro','Beer') , {name:'euro', age : 22})
+
+เพิ่ม ค่า 2 ค่าเข้าไปในอาร์เรย์
+
+('Euro','Beer') จะถูกประมวลผลเป็น 'Beer' แล้วเพิ่มเข้าไป
+
+{name:'euro', age : 22} จะถูกเพิ่มเข้าไปเป็น object
+
+console.log(myDog)
+
+แสดงผล อาร์เรย์ทั้งหมด หลังจากเพิ่มค่า 2 ค่าเข้าไปแล้ว
+
+myDog[myDog.length]=['หมา','เวฟ 125']
+
+เพิ่ม อาร์เรย์ ['หมา','เวฟ 125'] เข้าไปในอาร์เรย์ myDog ที่ ตำแหน่งท้ายสุด (Index ใหม่)
+
+for (let i = 0; i<myDog.length;i++){ console.log(myDog[i]) }
+
+เป็นการ วนลูป แบบ for เพื่อแสดงผล ทุก element ในอาร์เรย์ myDog ตั้งแต่เริ่มต้นจนถึงตัวสุดท้ายครับ
