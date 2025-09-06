@@ -1,0 +1,19 @@
+getFreqOfWords(sentence)
+
+ใช้เช็คคำที่ซ้ำกันในประโยค → คืนค่าเป็น object บอกความถี่แต่ละคำ
+
+เทคนิค: แปลงเป็น lower case + split + loop เก็บค่าใน object
+
+plus(num1, num2)
+
+ฟังก์ชันง่าย ๆ สำหรับบวกเลขสองตัว
+
+ใช้ return ส่งค่าผลบวก
+
+sum(...number)
+
+ใช้ rest parameter (...) เพื่อรับ argument ไม่จำกัดจำนวน
+
+ใช้ arguments object loop รวมค่าทั้งหมด
+
+ถ้าไม่ส่งค่าเข้ามาเลย → คืนค่า 0
